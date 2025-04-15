@@ -30,9 +30,9 @@ This repository contains a deep learning framework that integrates textual and v
                └────┬──────Concatenation──────┬────┘
                     ↓                         ↓
               Intermediate Fusion Layer (Linear + ReLU)
-                    ↓
-        ┌────────────┴────────────┐
-        ↓                         ↓
-    Text Classifier         Image Classifier
-        ↓                         ↓
-   Text Prediction           Image Prediction
+                                ↓
+                  ┌────────────┴────────────┐
+                  ↓                         ↓
+              Text Classifier         Image Classifier
+                  ↓                         ↓
+             Text Prediction           Image Prediction
