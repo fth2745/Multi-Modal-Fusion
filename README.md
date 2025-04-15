@@ -20,13 +20,13 @@ This repository contains a deep learning framework that integrates textual and v
 ## 🧱 Architecture
 
 ```text
-         ┌────────────┐      ┌────────────┐
-         │ Text Input │      │ Image Input│
-         └─────┬──────┘      └────┬───────┘
-               ↓                     ↓
-     [RoBERTa + BiGRU]         [ViT + ResNet + CBAM]
-               ↓                     ↓
-         Text Features           Image Features
+         ┌────────────┐                       ┌────────────┐
+         │ Text Input │                       │ Image Input│
+         └─────┬──────┘                       └────┬───────┘
+               ↓                                   ↓
+     [RoBERTa + BiGRU]                     [ViT + ResNet + CBAM]
+               ↓                                   ↓
+         Text Features                       Image Features
                └────┬──────Concatenation──────┬────┘
                     ↓                         ↓
               Intermediate Fusion Layer (Linear + ReLU)
