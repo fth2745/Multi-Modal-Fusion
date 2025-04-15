@@ -2,7 +2,7 @@
 
 # 🧠 Multi-Modal Intermediate Fusion Model with Multi-Task Learning
 
-This repository contains a deep learning framework that combines **text and image modalities** for joint classification using **Intermediate Fusion** and **Multi-Task Learning** strategies. The model simultaneously predicts **text-based** and **image-based** labels from fashion product data.
+This repository contains a deep learning framework that integrates textual and visual modalities to perform joint classification tasks on fashion product data. Leveraging Intermediate Fusion and Multi-Task Learning strategies, the model extracts high-level features from both text descriptions and product images to predict semantic labels. By combining outputs from RoBERTa-BiGRU (for text) and ViT-ResNet50-CBAM (for images), the system simultaneously classifies modality-specific targets with enhanced accuracy. The project demonstrates how multimodal fusion can improve understanding of complex, real-world data where visual and textual cues complement each other
 
 ---
 
